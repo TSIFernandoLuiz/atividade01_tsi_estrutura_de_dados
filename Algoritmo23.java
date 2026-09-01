@@ -1,11 +1,20 @@
 import java.util.Scanner;
+
 public class Algoritmo23 {
+    
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
+        
         System.out.print("Digite um numero de tres casas: ");
+        
         int numero = scanner.nextInt();
+        
         int dezenas = (numero % 100) / 10;
+        
         System.out.println("Algarismo da casa das dezenas: " + dezenas);
+        
         scanner.close();
+        
     }
 }
